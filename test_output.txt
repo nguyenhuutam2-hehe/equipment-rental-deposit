@@ -1,0 +1,12 @@
+Contract address: 0x2B9dDb42f5F2F0B8E7aC94185191846d258F6a15
+[PASS] Rent thành công, renter đúng
+[PASS] available = False sau khi thuê
+   revert: ('execution reverted: VM Exception while processing transaction: revert Item already rented', {'hash
+[PASS] Reject lần thuê thứ 2
+   revert: ('execution reverted: VM Exception while processing transaction: revert Only owner', {'hash': None, 
+[PASS] Reject confirmReturn từ non-owner
+[PASS] Renter nhận lại đúng tiền cọc
+[PASS] Item được giải phóng
+[PASS] Contract balance = 0
+
+Kết quả: 7/7 test PASS
